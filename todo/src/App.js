@@ -7,9 +7,7 @@ function App() {
 
   const [data, setData] = useState({ name: '', desc: '' })
   const [tasks, setTasks] = useState([])
-  // const [isChecked, setIsChecked] = useState([]);
-  // console.log(tasks, 'tasks')
-
+ 
   const handleChange = (event) => {
     setData({ ...data, [event.target.name]: event.target.value })
   }
